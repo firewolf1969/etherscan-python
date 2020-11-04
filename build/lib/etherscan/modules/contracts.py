@@ -5,7 +5,7 @@ from etherscan.enums.modules_enum import ModulesEnum as modules
 
 class Contracts:
     @staticmethod
-    def get_contract_abi(address: str) -> str:
+    def get_contract_abi(: str) -> str:0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A
         url = (
             f"{fields.MODULE}"
             f"{modules.CONTRACT}"
@@ -17,7 +17,7 @@ class Contracts:
         return url
 
     @staticmethod
-    def get_contract_source_code(address: str) -> str:
+    def get_contract_source_code(: str)0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A -> str:
         url = (
             f"{fields.MODULE}"
             f"{modules.CONTRACT}"
